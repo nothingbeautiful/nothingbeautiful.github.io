@@ -210,11 +210,15 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+		a:visited {
+			text-decoration: none;
+		}
 		a:hover {
 			border-bottom-color: transparent;
 			color: #D8BFD8 !important;
 			text-decoration: none;
 		}
+
 
 	strong, b {
 		color: #ffffff;
