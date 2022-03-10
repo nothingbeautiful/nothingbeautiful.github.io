@@ -4,16 +4,25 @@
 <html>
 	<head>
 		<style>
-			a:link{
-				color:#F08080 !important;
+			a.one:link{
+				color:#F00 ;
 			}
-			a:visited{
-				color:#FFF0F5 !important;
-				text-decoration: none !important;
+			a.one:visited{
+				color:#0F0 ;
+				text-decoration: none ;
 			}
-			a:hover{
-				color:#F08080 !important;
-				text-decoration: none !important;
+			a.one:hover{
+				color:#00F ;
+			}
+			a#two:link{
+				color:#00F ;
+			}
+			a#two:visited{
+				color:#F00 ;
+				text-decoration: none ;
+			}
+			a#two:hover{
+				color:#0F0 ;
 			}
 			.LightCoral-text{
 				color:#F08080 !important;
@@ -108,7 +117,7 @@
 								<section>
 									<h2><i>Welcome To my Photo Gallery</i></h2>
 									<p>
-									Part Of The Photo Source From <a href="https://wallhaven.cc/" target="_blank" >Wallhaven</a> And <a href="https://unsplash.com/" target="_blank" >Unsplash</a> 
+									Part Of The Photo Source From <a href="https://wallhaven.cc/" target="_blank" class="one" >Wallhaven</a> And <a href="https://unsplash.com/" target="_blank" class="one" >Unsplash</a> 
 									</p>
 									
 								</section>
@@ -120,8 +129,8 @@
 										</tr>
 									</table>
 									<ul class="icons">
-										<li><a href="https://user-images.githubusercontent.com/75196667/157648487-e208a731-e243-42cd-8c8a-368513e85a7b.jpg" target="_blank" class="icon brands fa-weixin"><span class="label">Weixin</span></a></li>
-										<li><a href="https://user-images.githubusercontent.com/75196667/157647633-deb15728-8bb9-4dad-b32e-b2df444f8cbb.jpg" target="_blank" class="icon brands fa-qq"><span class="label">QQ</span></a></li>						
+										<li><a id="two" href="https://user-images.githubusercontent.com/75196667/157648487-e208a731-e243-42cd-8c8a-368513e85a7b.jpg" target="_blank" class="icon brands fa-weixin"><span class="label">Weixin</span></a></li>
+										<li><a id="two" href="https://user-images.githubusercontent.com/75196667/157647633-deb15728-8bb9-4dad-b32e-b2df444f8cbb.jpg" target="_blank" class="icon brands fa-qq"><span class="label">QQ</span></a></li>						
 									</ul>
 								</section>
 								<p class="copyright">
