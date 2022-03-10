@@ -3,6 +3,52 @@
 -->
 <html>
 	<head>
+		<style>
+			a#one:link{
+				color:#F5F5F5;
+				text-decoration: none ;
+			}
+			a#one:visited{
+				color:#B0C4DE ;
+				text-decoration: none ;
+			}
+
+			a#two:link{
+				color:#D3D3D3 ;
+				text-decoration: none ;
+			}
+			a#two:visited{
+				color:#66CDAA;
+				text-decoration: none ;
+			}
+			a#three:link{
+				color:#C0C0C0;
+				text-decoration: none ;
+			}
+			a#three:visited{
+				color:#DB7093 ;
+				text-decoration: none ;
+			}
+
+			.LightCoral-text{
+				color:#F08080 !important;
+			}
+			.SkyBlue-text{
+				color:#87CEEB !important;
+			}
+			.LightPink-text{
+				color:#FFB6C1 !important;
+			}
+			.Cyan-text{
+				color:#A3E4D7 !important;
+			}
+			.PaleVioletRed-text{
+				color:#DB7093 !important;
+			}
+			.LightSteelBlue-text{
+				color:#B0C4DE !important;
+			}
+		</style>
 		<title>Yukino's Photo album</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -16,7 +62,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html"><strong>photo</strong> by Yukino</a></h1>
+						<h1><a href="index.html"><strong>photo</strong> by <i>Yukino</i></a></h1>
 						<nav>
 							<ul>
 
@@ -75,25 +121,17 @@
 						<div class="inner split">
 							<div>
 								<section>
-									<h2>welcome to my photo gallery</h2>
+									<h2><i>Welcome To my Photo Gallery</i></h2>
 									<p>
-									Part of the photo source website:<a href="https://wallhaven.cc/">Wallhaven</a>and<a href="https://unsplash.com/">Unsplash</a> 
+									Part Of The Photo Source From <a href="https://wallhaven.cc/" target="_blank" id="one" >Wallhaven</a> And <a href="https://unsplash.com/" target="_blank" id="one" >Unsplash</a> 
 									</p>
 									
 								</section>
 								<section>
-									<h2>Contact information</h2>
-									<table>
-										<tr>
-											<th>name：Yukino</th>
-											<th>hobby：Photography</th>
-										</tr>
-									</table>
+									<h2 style="color:#7FFFD4"><em>Yukino</em></h2>
 									<ul class="icons">
-										<li><a class="icon brands fa-weixin"><span class="label">Weixin</span></a></li>
-											<img src="images/qr/01.jpg" width="150px" height="150px" alt="" />
-										<li><a class="icon brands fa-qq><span class="label">QQ</span></a></li>
-											<img src="images/qr/02.jpg" width="150px" height="150px" alt="" />						
+										<li><a id="two" href="https://user-images.githubusercontent.com/75196667/157648487-e208a731-e243-42cd-8c8a-368513e85a7b.jpg" target="_blank" class="icon brands fa-weixin"><span class="label">Weixin</span></a></li>
+										<li><a id="three" href="https://user-images.githubusercontent.com/75196667/157647633-deb15728-8bb9-4dad-b32e-b2df444f8cbb.jpg" target="_blank" class="icon brands fa-qq"><span class="label">QQ</span></a></li>						
 									</ul>
 								</section>
 								<p class="copyright">
@@ -105,11 +143,11 @@
 									<form method="post" action="#">
 										<div class="fields">
 											<div class="field half">
-												<input type="text" name="name" id="name" placeholder="who are you？" />
+												<input style="opacity:0.3" type="text" name="name" id="name" placeholder="who are you？" />
 											</div>
 											<div class="field half">
 												<input type="text" name="email" id="email" placeholder="Your Email" />
-											</div>
+											</div> 
 											<div class="field">
 												<textarea name="message" id="message" rows="4" placeholder="tell me"></textarea>
 											</div>
