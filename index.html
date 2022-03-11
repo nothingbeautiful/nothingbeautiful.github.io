@@ -154,6 +154,38 @@
 								</figure>
 								</center>
 							</div>
+							<div>
+								<body style="font-size:10px;">
+    								<span>0</span>
+								    <span>0</span> :
+								    <span>0</span>
+								    <span>0</span> :
+								    <span>0</span>
+								    <span>0</span>
+									<script>
+								        function toDou(n) { //当时钟个位时前面加0
+								            if (n < 10) {
+								                return '0' + n;
+								            } else {
+								                return '' + n;
+								            }
+								        }
+								        window.onload = function () {
+								            var oImg = document.getElementsByTagName('span'); //
+								            function time() {
+								                var oDate = new Date(); //获取当前的时间
+								                var str = toDou(oDate.getHours()) + toDou(oDate.getMinutes()) + toDou(oDate.getSeconds()); //把当前的时分秒转为数字
+								                for (var i = 0; i < oImg.length; i++) {
+								                    oImg[i].innerHTML = str.charAt(i);
+								                }
+								            }
+								            setInterval(time, 1000);
+								            time();
+								        }
+								    </script>
+								</body>
+
+							</div>
 							<!-- <div id="text-email">
 								<section>
 									<h2>what you want to say？</h2>
