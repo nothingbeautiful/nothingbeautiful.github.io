@@ -160,11 +160,11 @@
 									<span>0</span>
 									<span>0</span>
 									<script>
-								        function toDou(xx) { //当时钟个位时前面加0
-								            if (xx < 10) {
-								                return '0' + xx;
+								        function toDou(x) { //当时钟个位时前面加0
+								            if (x < 10) {
+								                return '0' + x;
 								            } else {
-								                return '' + xx;
+								                return '' + x;
 								            }
 								        }
 								        window.onload = function () {
@@ -172,8 +172,8 @@
 								            function time() {
 								                var dDate = new Date(); //获取当前的时间
 								                var sstr = toDou(dDate.getHours()) + toDou(dDate.getMinutes()) + toDou(dDate.getSeconds()); //把当前的时分秒转为数字
-								                for (var ss = 0; ss < iImg.length; ss++) {
-								                    iImg[ss].innerHTML = str.charAt(ss);
+								                for (var s = 0; s < iImg.length; s++) {
+								                    iImg[s].innerHTML = str.charAt(s);
 								                }
 								            }
 								            setInterval(time, 1000);
