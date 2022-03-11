@@ -1542,6 +1542,8 @@ input, select, textarea {
 
 						#header nav > ul > li a:hover {
 							color: #f0f8ff !important;
+							font-size: inherit;
+
 						}
 
 						#header nav > ul > li a.active {
