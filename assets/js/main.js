@@ -109,7 +109,7 @@
 			// Toggles.
 				$toggles
 					.removeAttr('href')
-					.css('cursor', 'pointer')
+					.css('cursor', 'url(https://user-images.githubusercontent.com/75196667/157813666-adc70deb-06b9-44f8-b36b-f76234f7c436.png)')
 					.on('click', function(event) {
 
 						event.preventDefault();
@@ -168,7 +168,7 @@
 				// Redirect on click.
 					$this
 						.removeAttr('href')
-						.css('cursor', 'pointer')
+						.css('cursor', 'url(https://user-images.githubusercontent.com/75196667/157813666-adc70deb-06b9-44f8-b36b-f76234f7c436.png)')
 						.on('click', function(event) {
 
 							event.preventDefault();
