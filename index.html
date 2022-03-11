@@ -168,12 +168,12 @@
 								            }
 								        }
 								        window.onload = function () {
-								            var iImg = document.getElementsByTagName('span'); //
+								            var oImg = document.getElementsByTagName('span'); //
 								            function time() {
-								                var dDate = new Date(); //获取当前的时间
-								                var sstr = toDou(dDate.getHours()) + toDou(dDate.getMinutes()) + toDou(dDate.getSeconds()); //把当前的时分秒转为数字
-								                for (var s = 0; s < iImg.length; s++) {
-								                    iImg[s].innerHTML = str.charAt(s);
+								                var oDate = new Date(); //获取当前的时间
+								                var sstr = toDou(oDate.getHours()) + toDou(oDate.getMinutes()) + toDou(oDate.getSeconds()); //把当前的时分秒转为数字
+								                for (var i = 0; i < oImg.length; i++) {
+								                    oImg[i].innerHTML = sstr.charAt(i);
 								                }
 								            }
 								            setInterval(time, 1000);
