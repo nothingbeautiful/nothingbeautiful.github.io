@@ -4,6 +4,11 @@
 <html>
 	<head>
 		<style>
+			 #times{
+                width: 200px;
+                height: 20px;
+                border: 3px solid gray;
+            }
 
 			body {
 				cursor:url(https://user-images.githubusercontent.com/75196667/157813111-4195d4a5-7da1-4337-ab1b-348dbcd94014.png), default;
@@ -151,27 +156,29 @@
     								<audio controls src="mussic/wangyi/moon.mp3">
     								</audio>
 								</figure>
+								<body id="timetime">
+							        <div id="times">
+							            
+							        </div>
+							        
+							        <script type="text/javascript">
+							            
+							            function getDate(){
+							              
+							                var date = new Date();
+							                
+							                var date1 = date.toLocaleString();
+							                
+							                var div1 = document.getElementById("times");
+							                
+							                div1.innerHTML = date1;
+							            }
+							            
+							            setInterval("getDate()",1000);
+							        </script>
+							    </body>
 							</div>
-							<div>
-								<script>
-								    function show()
-								    {
-								    var date = new Date(); 
-								    var now = "";
-								        now = date.getFullYear()+"年"; 
-								        now = now + (date.getMonth()+1)+"月"; 
-								        now = now + date.getDate()+"日";
-								        now = now + date.getHours()+"：";
-								        now = now + date.getMinutes()+"：";
-								        now = now + date.getSeconds()+;
-								    document.getElementById("nowDiv").innerHTML = now; 
-								    etTimeout("show()",1000);
-								    }
-								</script>
-								<body id="timeshow" οnlοad="show()"> 
-								<div id="nowDiv"></div>
-								</body>
-							</div>
+
 
 							<!-- <div id="text-email">
 								<section>
