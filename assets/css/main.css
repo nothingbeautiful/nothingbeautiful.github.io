@@ -379,7 +379,7 @@ input, select, textarea {
 		border-radius: 0;
 		box-shadow: inset 0 0 0 2px #36383c;
 		color: #ffffff !important;
-		/*cursor: pointer;*/
+		cursor:url(https://user-images.githubusercontent.com/75196667/157813666-adc70deb-06b9-44f8-b36b-f76234f7c436.png), pointer;
 		display: inline-block;
 		font-size: 0.9em;
 		font-weight: 300;
@@ -672,7 +672,7 @@ input, select, textarea {
 		input[type="radio"] + label {
 			text-decoration: none;
 			color: #a0a0a1;
-			/*cursor: pointer;*/
+			cursor:url(https://user-images.githubusercontent.com/75196667/157813666-adc70deb-06b9-44f8-b36b-f76234f7c436.png), pointer;
 			display: inline-block;
 			font-size: 1em;
 			font-weight: 300;
@@ -842,7 +842,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		/*cursor: default;*/
+		cursor:url(https://user-images.githubusercontent.com/75196667/157813111-4195d4a5-7da1-4337-ab1b-348dbcd94014.png), default;
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
@@ -960,7 +960,7 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
-		/*cursor: default;*/
+		cursor:url(https://user-images.githubusercontent.com/75196667/157813111-4195d4a5-7da1-4337-ab1b-348dbcd94014.png), default;
 		list-style: none;
 		padding-left: 0;
 	}
@@ -1111,7 +1111,7 @@ input, select, textarea {
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 3em;
-			/*cursor: pointer;*/
+			cursor:url(https://user-images.githubusercontent.com/75196667/157813666-adc70deb-06b9-44f8-b36b-f76234f7c436.png), pointer;
 			height: 5em;
 			opacity: 0.25;
 			position: absolute;
@@ -1188,7 +1188,7 @@ input, select, textarea {
 	.poptrox-popup {
 		background: rgba(31, 34, 36, 0.925);
 		box-shadow: 0 1em 3em 0.5em rgba(0, 0, 0, 0.25);
-		/*cursor: default;*/
+		cursor:url(https://user-images.githubusercontent.com/75196667/157813111-4195d4a5-7da1-4337-ab1b-348dbcd94014.png), default;
 	}
 
 		.poptrox-popup:before {
@@ -1239,7 +1239,7 @@ input, select, textarea {
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 5em;
-			/*cursor: pointer;*/
+			cursor:url(https://user-images.githubusercontent.com/75196667/157813666-adc70deb-06b9-44f8-b36b-f76234f7c436.png), pointer;
 			height: 8em;
 			margin-top: -4em;
 			opacity: 0;
@@ -1268,7 +1268,7 @@ input, select, textarea {
 			background-image: -ms-linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%);
 			background-image: linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%);
 			bottom: 0;
-			/*cursor: default;*/
+			cursor:url(https://user-images.githubusercontent.com/75196667/157813111-4195d4a5-7da1-4337-ab1b-348dbcd94014.png), default;
 			left: 0;
 			position: absolute;
 			text-align: left;
