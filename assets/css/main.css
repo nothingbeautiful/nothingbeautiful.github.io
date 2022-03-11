@@ -672,7 +672,7 @@ input, select, textarea {
 		input[type="radio"] + label {
 			text-decoration: none;
 			color: #a0a0a1;
-			cursor: pointer;
+			/*cursor: pointer;*/
 			display: inline-block;
 			font-size: 1em;
 			font-weight: 300;
