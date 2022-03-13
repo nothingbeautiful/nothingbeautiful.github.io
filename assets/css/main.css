@@ -152,9 +152,9 @@ input, select, textarea {
 		box-sizing: border-box;
 	}
 
-	*, *:before, *:after {
+	/* *, *:before, *:after {
 		box-sizing: inherit;
-	}
+	} */
 
 	body {
 		background: #242629;
@@ -1542,7 +1542,7 @@ input, select, textarea {
 
 						#header nav > ul > li a:hover {
 							color: #f0f8ff !important;
-							font-size: initial;
+							font-size: 1.1em;
 
 						}
 
