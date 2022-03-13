@@ -4,6 +4,10 @@
 <html>
 	<head>
 		<style>
+			ul li{
+				display: inline;
+			}
+
 			 #times{
 			 	background-color: rgba(255,192,203,0.1);
 			 	text-align: center;
@@ -80,11 +84,11 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html"><strong>photo</strong> by <i style="color:pink;">Yukino</i></a></h1>
+						<h1><a href="#lefter"><strong>photo</strong> by <i style="color:pink;">Yukino</i></a></h1>
 						<nav>
 							<ul>
 
-								<li><a href="#footer" class="icon solid fa-info-circle">mine</a></li>
+								<li><a href="#footer" class="icon solid fa-info-circle">More</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -210,9 +214,36 @@
 									</form>
 								</section>
 							</div> -->
-						</div>
-					</footer>
 
+
+				<!--Lefter-->
+					<Lefter id="lefter" class="panel">
+						<div class="inner split">
+							<div>
+								<section>
+									<ul style="list-style-type: none;">
+										<li>Please</li>
+										<li>Write</li>
+										<li>Your</li>
+										<li>Review</li>
+									</ul>
+								</section>
+
+								<section>
+									<form method="post" action="#">
+										<div class="field">
+											<textarea name="message" id="message" rows="4" placeholder="yeah"></textarea>
+
+											
+										</div>
+									</form>
+
+								</section>
+							</div>
+							
+						</div>
+
+					</Lefter>
 			</div>
 
 		<!-- Scripts -->
