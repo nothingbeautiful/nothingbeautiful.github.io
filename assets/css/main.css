@@ -1547,6 +1547,7 @@ input, select, textarea {
 						}
 
 						#header nav > ul > li a.active {
+							color: rgba(144,77,89,0.9) !important;
 							background-color: #242629;
 						}
 
